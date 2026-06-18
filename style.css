@@ -1,0 +1,33 @@
+*{
+	box-sizing:border-box; margin:0; padding:0;
+}
+input{
+	height:40px;
+	width:300px;
+	background-color:#eeeeee;
+	margin:8px;
+	border-radius: 8px 8px 8px 8px;
+}
+button{
+	height:40px;
+	width:200px;
+	font-size:16px;
+	padding:4px;
+	background-color:#3241fe;
+	color:white;
+	border-radius: 8px 8px 8px 8px;
+}
+html,body{
+	font-size:15px;
+	font-family: sans-serif, times-new-roman, verdana;
+	min-height:100%;
+	line-height:1.5;
+}
+.card{
+	
+	text-align: center;
+	align-items: center;
+	background:var(-surface);
+	border:1px solid var(-border);
+	border-radius:32px 32px 32px 32px;
+}
